@@ -4,7 +4,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = "1292783190:AAE0y3avmZYHPRmXh-RRNvkLCYSK4eFznoA"   #token id
+TOKEN = "ENTER YOUR TOKEN"   #token id
 
 def start(bot,update):
     name  = update.message.from_user.first_name  #first name of the user messaging
